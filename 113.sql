@@ -1,0 +1,6 @@
+USE SQL_STORE;
+
+SELECT *
+FROM ORDERS
+WHERE YEAR(order_date) >= YEAR(NOW());
+
